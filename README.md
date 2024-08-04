@@ -52,6 +52,36 @@ Before running the program, ensure you have the following installed on your loca
    ```bash
    python waveAngle.py
 
+## Usage 
+### Manual Point Selection
+
+1. **Load the Images:**
+    Upon running the script, the images (`pic1.png` and `pic2.png`) will be loaded and displayed one at a time. The images should be placed in the `imgs` directory within the `waveAnalysis` folder.
+
+2. **Select Points:**
+    For each image, the user will be prompted to manually click on three points along the wave crest. These points are essential for calculating the wave's angle.
+
+3. **Determine Wave Angle:**
+After selecting the points, the program calculates the wave angle using the Cartesian coordinates of the selected points. The calculated angle is then displayed in the console output.
+
+### Example Workflow
+
+#### First Image (`pic1.png`):
+1. The image is displayed on the screen.
+2. The user clicks on three points along the wave crest.
+3. The program calculates and prints the wave angle in the console.
+
+#### Second Image (`pic2.png`):
+1. The image is displayed on the screen.
+2. The user clicks on three points along the wave crest.
+3. The program calculates and prints the wave angle in the console.
+
+This manual point selection process allows for precise input, ensuring an accurate calculation of wave angles based on the user's observations.
+
+## Notes
+- **Accuracy**: The accuracy of the calculated angles depends on the precision of the points selected by the user.
+- **Console Output**: The calculated angles are displayed in the console after points are selected for each image.
+
 ## Future Implementations
 
 In future versions, we aim to automate the wave angle calculation process using machine learning. These enhancements include:
